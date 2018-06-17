@@ -1,2 +1,2 @@
 # MyNotepad
-This is a notepad which I ahve created using PyQt5 module.
+This is a notepad which I have created using PyQt5 module.
