@@ -39,7 +39,7 @@ class window(QMainWindow):
     def savefile(self):
         name, _ = QFileDialog.getSaveFileName(self)
         file = open(name,'w')
-        text = self.textEdit.toPlainText()
+        text = self.text.toPlainText()
         file.write(text)
         file.close()
 
